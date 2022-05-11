@@ -5,3 +5,10 @@ Mounting – bu dastlabki davr bo’lib,bu component yaratilish davridir.Mountin
 Updating – bu o’zgarish davridir.Ushbu lifecycleda  esa avval render, keyin componentDidUpdate() metod ishlidi.Bu komponentada biz masalan,stateda bo’lgan o’zgarishlarni solishtirishimiz mumkin.Misol keltiradigan bo’lsak,agar bizda state Boolean qiymat bo’lib u tez-tez o’zgaradigan bo’lsa va u o’zgarishlar ketma – ket bir xil natijani ko’rsatishi mumkin bo’lsa, unda biz ko’p marta render bo’lish ehtimolini quyidagi kod orqali kamaytirishimiz mumkin : 
 
 <img src="C:\Users\acer\Desktop\Interactive React va Redux Course" width="600px" >
+Buning foydasi shundayki,bizga ma’lum ko’p marta render bo’lsa , u saytimizni qotishga olib keladi.Buni oldini olish uchun biz yuqoridagi koddan foydalanishimiz mumkin.
+
+Unmounting – bu component reactdan o’chirilganda davridir ya’ni bu o’limga xoslash mumkin.ushbu lifecycleda biz componentWillUnMount() dan foydalanishimiz mumkin.Ushbu metod bizga o’chirilgan komponentdan qayta foydalanish imkonini beradi.Misol uchun bizda button bosganda componentta o’chirilsin va alert da component o’chirilgani haqida ma’lumot chiqsin.Buning uchun quyidagicha koddan foydalanamiz.
+<img src="C:\Users\acer\Desktop\Interactive React va Redux Course" width="600px">
+<img src="C:\Users\acer\Desktop\Interactive React va Redux Course" width="600px">
+Buning natijasi shundayki agar button bosilsa,alert da bizga component unmount bo’lgani haqida ma’lumot chiqadi.
+Men bu maqolamdan sizga lifecycle haqida kerakli ma’lumot bera olgan bo’lsam va ilmiz oshishiga sababchi bo’lgan bo’lsam xursandman.Men o’z niyatimga erishibman.Hudo hohlasa maqolalarimiz davom etadi! 
